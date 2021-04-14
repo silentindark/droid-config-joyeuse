@@ -1,0 +1,6 @@
+Description: Pattern with packages for tucana configurations
+Name: jolla-configuration-tucana
+Requires:
+- patterns-sailfish-device-configuration-tucana
+
+Summary: Jolla Configuration tucana
