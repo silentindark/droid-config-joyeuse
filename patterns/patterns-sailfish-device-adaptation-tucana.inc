@@ -6,6 +6,7 @@ Summary: Jolla HW Adaptation tucana
 Requires: droid-hal-tucana
 Requires: droid-hal-tucana-img-boot
 Requires: droid-hal-tucana-kernel-modules
+Requires: droid-hal-tucana-detritus
 Requires: droid-config-tucana-sailfish
 Requires: droid-config-tucana-pulseaudio-settings
 Requires: droid-config-tucana-policy-settings
@@ -35,7 +36,7 @@ Requires: pulseaudio-modules-droid-hidl
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
 # to fix non-responding Camera app and/or voice during a phone call:
-#Requires: audiosystem-passthrough-dummy-af
+Requires: audiosystem-passthrough-dummy-af
 
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -68,8 +69,8 @@ Requires: jolla-devicelock-daemon-encsfa
 Requires: geoclue-provider-hybris
 
 # For FM radio on some QCOM devices
-#Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
-#Requires: jolla-mediaplayer-radio
+Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
+Requires: jolla-mediaplayer-radio
 
 # NFC support
 # 1. binder plugin requires Android 8 or a newer base
