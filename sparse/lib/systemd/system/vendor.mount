@@ -3,7 +3,7 @@ Description=Droid mount for /vendor
 Before=vendor-bt_firmware.mount vendor-dsp.mount vendor-firmware_mnt.mount local-fs.target systemd-modules-load.service
 
 [Mount]
-What=/dev/sde16
+What=/dev/sda24
 Where=/vendor
 Type=ext4
 TimeoutSec=5

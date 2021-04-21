@@ -152,7 +152,7 @@ namespace.rs.visible = true
 
 namespace.rs.search.paths  = /odm/${LIB}/vndk-sp
 namespace.rs.search.paths += /vendor/${LIB}/vndk-sp
-namespace.rs.search.paths += /system/${LIB}/vndk-sp-28
+namespace.rs.search.paths += /system/${LIB}/vndk-sp-29
 namespace.rs.search.paths += /odm/${LIB}
 namespace.rs.search.paths += /vendor/${LIB}
 
@@ -164,8 +164,8 @@ namespace.rs.asan.search.paths  = /data/asan/odm/${LIB}/vndk-sp
 namespace.rs.asan.search.paths +=           /odm/${LIB}/vndk-sp
 namespace.rs.asan.search.paths += /data/asan/vendor/${LIB}/vndk-sp
 namespace.rs.asan.search.paths +=           /vendor/${LIB}/vndk-sp
-namespace.rs.asan.search.paths += /data/asan/system/${LIB}/vndk-sp-28
-namespace.rs.asan.search.paths +=           /system/${LIB}/vndk-sp-28
+namespace.rs.asan.search.paths += /data/asan/system/${LIB}/vndk-sp-29
+namespace.rs.asan.search.paths +=           /system/${LIB}/vndk-sp-29
 namespace.rs.asan.search.paths += /data/asan/odm/${LIB}
 namespace.rs.asan.search.paths +=           /odm/${LIB}
 namespace.rs.asan.search.paths += /data/asan/vendor/${LIB}
@@ -197,21 +197,21 @@ namespace.vndk.visible = true
 
 namespace.vndk.search.paths  = /odm/${LIB}/vndk-sp
 namespace.vndk.search.paths += /vendor/${LIB}/vndk-sp
-namespace.vndk.search.paths += /system/${LIB}/vndk-sp-28
+namespace.vndk.search.paths += /system/${LIB}/vndk-sp-29
 
 namespace.vndk.permitted.paths  = /odm/${LIB}/hw
 namespace.vndk.permitted.paths += /odm/${LIB}/egl
 namespace.vndk.permitted.paths += /vendor/${LIB}/hw
 namespace.vndk.permitted.paths += /vendor/${LIB}/egl
 # This is exceptionally required since android.hidl.memory@1.0-impl.so is here
-namespace.vndk.permitted.paths += /system/${LIB}/vndk-sp-28/hw
+namespace.vndk.permitted.paths += /system/${LIB}/vndk-sp-29/hw
 
 namespace.vndk.asan.search.paths  = /data/asan/odm/${LIB}/vndk-sp
 namespace.vndk.asan.search.paths +=           /odm/${LIB}/vndk-sp
 namespace.vndk.asan.search.paths += /data/asan/vendor/${LIB}/vndk-sp
 namespace.vndk.asan.search.paths +=           /vendor/${LIB}/vndk-sp
-namespace.vndk.asan.search.paths += /data/asan/system/${LIB}/vndk-sp-28
-namespace.vndk.asan.search.paths +=           /system/${LIB}/vndk-sp-28
+namespace.vndk.asan.search.paths += /data/asan/system/${LIB}/vndk-sp-29
+namespace.vndk.asan.search.paths +=           /system/${LIB}/vndk-sp-29
 
 namespace.vndk.asan.permitted.paths  = /data/asan/odm/${LIB}/hw
 namespace.vndk.asan.permitted.paths +=           /odm/${LIB}/hw
@@ -222,8 +222,8 @@ namespace.vndk.asan.permitted.paths +=           /vendor/${LIB}/hw
 namespace.vndk.asan.permitted.paths += /data/asan/vendor/${LIB}/egl
 namespace.vndk.asan.permitted.paths +=           /vendor/${LIB}/egl
 
-namespace.vndk.asan.permitted.paths += /data/asan/system/${LIB}/vndk-sp-28/hw
-namespace.vndk.asan.permitted.paths +=           /system/${LIB}/vndk-sp-28/hw
+namespace.vndk.asan.permitted.paths += /data/asan/system/${LIB}/vndk-sp-29/hw
+namespace.vndk.asan.permitted.paths +=           /system/${LIB}/vndk-sp-29/hw
 
 # The "vndk" namespace links to "default" namespace for LLNDK libs and links to
 # "sphal" namespace for vendor libs.  The ordering matters.  The "default"
@@ -295,8 +295,8 @@ namespace.vndk.search.paths  = /odm/${LIB}/vndk
 namespace.vndk.search.paths += /odm/${LIB}/vndk-sp
 namespace.vndk.search.paths += /vendor/${LIB}/vndk
 namespace.vndk.search.paths += /vendor/${LIB}/vndk-sp
-namespace.vndk.search.paths += /system/${LIB}/vndk-sp-28
-namespace.vndk.search.paths += /system/${LIB}/vndk-28
+namespace.vndk.search.paths += /system/${LIB}/vndk-sp-29
+namespace.vndk.search.paths += /system/${LIB}/vndk-29
 
 namespace.vndk.asan.search.paths  = /data/asan/odm/${LIB}/vndk
 namespace.vndk.asan.search.paths +=           /odm/${LIB}/vndk
@@ -306,10 +306,10 @@ namespace.vndk.asan.search.paths += /data/asan/vendor/${LIB}/vndk
 namespace.vndk.asan.search.paths +=           /vendor/${LIB}/vndk
 namespace.vndk.asan.search.paths += /data/asan/vendor/${LIB}/vndk-sp
 namespace.vndk.asan.search.paths +=           /vendor/${LIB}/vndk-sp
-namespace.vndk.asan.search.paths += /data/asan/system/${LIB}/vndk-sp-28
-namespace.vndk.asan.search.paths +=           /system/${LIB}/vndk-sp-28
-namespace.vndk.asan.search.paths += /data/asan/system/${LIB}/vndk-28
-namespace.vndk.asan.search.paths +=           /system/${LIB}/vndk-28
+namespace.vndk.asan.search.paths += /data/asan/system/${LIB}/vndk-sp-29
+namespace.vndk.asan.search.paths +=           /system/${LIB}/vndk-sp-29
+namespace.vndk.asan.search.paths += /data/asan/system/${LIB}/vndk-29
+namespace.vndk.asan.search.paths +=           /system/${LIB}/vndk-29
 
 # When these NDK libs are required inside this namespace, then it is redirected
 # to the system namespace. This is possible since their ABI is stable across
