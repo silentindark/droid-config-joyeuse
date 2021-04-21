@@ -13,3 +13,4 @@ service hwservicemanager /system/bin/hwservicemanager
     class animation
     shutdown critical
     override
+
