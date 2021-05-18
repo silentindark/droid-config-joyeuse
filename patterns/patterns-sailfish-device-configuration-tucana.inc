@@ -22,6 +22,7 @@ Requires: vim-enhanced
 Requires: less
 Requires: valgrind
 Requires: lipstick-qt5-tools
+Requires: qt5-qtdeclarative-qmlscene
 Requires: libhybris-tests
 Requires: busybox-static
 Requires: openssh-server
