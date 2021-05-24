@@ -27,7 +27,7 @@ Requires: libgbinder-tools
 # pixel_ratio = 4.5/DiagonalDisplaySizeInches * HorizontalDisplayResolution/540
 # Other screen sizes and ratios will require more trial-and-error.
 
-%define pixel_ratio 2.0
+%define pixel_ratio 1.5
 
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-tucana.inc
