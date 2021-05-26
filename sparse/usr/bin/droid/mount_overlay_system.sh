@@ -5,5 +5,17 @@
 # Disabled overall overay because it crashes graphics composer. Manually picking:
 
 mount --bind /usr/libexec/droid-hybris/system/lib64/libprocessgroup_setup.so /system/lib64/libprocessgroup_setup.so 
+mount --bind /usr/libexec/droid-hybris/system/lib64/libprocessgroup.so /system/lib64/libprocessgroup.so 
+
 mkdir -p /persist
 mount --bind /mnt/vendor/persist /persist
+
+# Overlay /odm over /vendor?
+#mount -t overlay overlayodm -olowerdir=/odm:/vendor /vendor
+
+# Overlay /product/vendor_overlay over /vendor
+#mount -t overlay overlay -olowerdir=/product/vendor_overlay/29:/vendor
+mkdir -p /product
+mount --bind /system/product /product
+
+
