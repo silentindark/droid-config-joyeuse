@@ -4,6 +4,7 @@
 
 # Disabled overall overay because it crashes graphics composer. Manually picking:
 
+# Get rid of some cgroup messages
 mount --bind /usr/libexec/droid-hybris/system/lib64/libprocessgroup_setup.so /system/lib64/libprocessgroup_setup.so 
 mount --bind /usr/libexec/droid-hybris/system/lib64/libprocessgroup.so /system/lib64/libprocessgroup.so 
 
@@ -15,7 +16,14 @@ mount --bind /mnt/vendor/persist /persist
 
 # Overlay /product/vendor_overlay over /vendor
 #mount -t overlay overlay -olowerdir=/product/vendor_overlay/29:/vendor
+
+# Is this fixing audio?
 mkdir -p /product
 mount --bind /system/product /product
+
+# if using a system with vendor included, this is needed for wlan to work
+if [ ! -L /system/vendor ]; then
+	mount --bind /vendor /system/vendor
+fi
 
 
