@@ -45,6 +45,9 @@ Requires: dummy_netd
 # to fix non-responding Camera app and/or voice during a phone call:
 Requires: audiosystem-passthrough-dummy-af
 
+# Should fix camera recording https://github.com/sailfishos-sony-tama/main/issues/115#issuecomment-787675508
+Requires: miniaudiopolicy
+
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 

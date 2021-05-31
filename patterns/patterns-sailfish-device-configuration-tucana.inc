@@ -22,11 +22,14 @@ Requires: vim-enhanced
 Requires: less
 Requires: valgrind
 Requires: lipstick-qt5-tools
-Requires: qt5-qtdeclarative-qmlscene
 Requires: libhybris-tests
 Requires: busybox-static
 Requires: openssh-server
 Requires: zypper
+
+Requires: qt5-qtdeclarative-qmlscene
+Requires: gstreamer1.0-tools
+Requires: droid-camres
 
 Requires: sailfish-content-graphics-z%{icon_res}
 
