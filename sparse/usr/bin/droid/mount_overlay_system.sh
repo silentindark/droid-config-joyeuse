@@ -27,3 +27,6 @@ if [ ! -L /system/vendor ]; then
 fi
 
 
+
+# makes audio_tuning_mixer.txt error go away
+mount -t overlay overlay -o lowerdir=/odm/vendor-etc-overlay:/vendor/etc /vendor/etc
