@@ -27,6 +27,12 @@ Requires: busybox-static
 Requires: openssh-server
 Requires: zypper
 
+# Fix ohm crashing during calls
+Requires: ohm >= 1.3.0-1
+Requires: ohm-plugins-misc >= 1.5.8-1.2.6.jolla
+Requires: libdres >= 1.1.17-1
+
+#debugging
 Requires: qt5-qtdeclarative-qmlscene
 Requires: gstreamer1.0-tools
 Requires: droid-camres
