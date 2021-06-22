@@ -5,3 +5,7 @@ on late-init
 
 	# make selinux enforcement world readable
 	chmod 0644 /sys/fs/selinux/enforce
+
+        # Infrared
+	chown system input /dev/lirc0
+

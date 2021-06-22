@@ -14,7 +14,7 @@ Options=noatime,nosuid,nodev,barrier=1
 TimeoutSec=10
 
 [Install]
-WantedBy=graphical.target
+WantedBy=local-fs.target
 
 # From ./out/target/product/t5/vendor/etc/fstab.qcom :
 # /dev/sda2    /mnt/vendor/persist     ext4   noatime,nosuid,nodev,barrier=1                   wait

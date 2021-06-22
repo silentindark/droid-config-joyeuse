@@ -32,8 +32,11 @@ Requires: ohm >= 1.3.0-1
 Requires: ohm-plugins-misc >= 1.5.8-1.2.6.jolla
 Requires: libdres >= 1.1.17-1
 
-#debugging
-Requires: qt5-qtdeclarative-qmlscene
+# Nice to have
+Requires: irremote
+Requires: harbour-storeman
+
+# Debugging
 Requires: gstreamer1.0-tools
 Requires: droid-camres
 
