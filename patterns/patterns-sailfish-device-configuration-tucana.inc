@@ -23,7 +23,6 @@ Requires: harbour-storeman
 
 # Debugging
 Requires: gstreamer1.0-tools
-Requires: droid-camres
 
 Requires: sailfish-content-graphics-z%{icon_res}
 
