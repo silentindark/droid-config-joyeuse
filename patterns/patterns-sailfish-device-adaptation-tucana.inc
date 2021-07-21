@@ -46,7 +46,7 @@ Requires: dummy_netd
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
 # to fix non-responding Camera app and/or voice during a phone call:
-#Requires: audiosystem-passthrough-dummy-af
+Requires: audiosystem-passthrough-dummy-af
 
 # Should fix camera recording https://github.com/sailfishos-sony-tama/main/issues/115#issuecomment-787675508
 #Requires: miniaudiopolicy
