@@ -15,6 +15,8 @@
 
 %define android_version_major 10
 
+%define ofono_enable_plugins bluez5,hfp_ag_bluez5
+
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 
