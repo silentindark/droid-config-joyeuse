@@ -4,20 +4,18 @@ service installd installd_HYBRIS_DISABLED
 
 service cameraserver cameraserver_HYBRIS_DISABLED
 
-# Seems to be required for ultrasound
-# Unfortunately, there's an initialization race and 
-# sound in calls does not always work
-service audioserver audioserver_HYBRIS_DISABLED
+# Needs to start after pulseaudio
+service audioserver /system/bin/audioserver
+    disabled
+    override
 
 service media mediaserver_HYBRIS_DISABLED
 
 service update_engine update_engine_HYBRIS_DISABLED
 
-# Seems to be required for ultrasound
-# Unfortunately, there's an initialization race and 
-# sound in calls does not always work
-service vendor.audio-hal-2-0 /vendor/bin/hw/android.hardware.audio@2.0-service_HYBRIS_DISABLED
-    override
+# needs to start before pulseaudio
+# service vendor.audio-hal-2-0 /vendor/bin/hw/android.hardware.audio@2.0-service_HYBRIS_DISABLED
+#     override
 
 service lmkd /system/bin/lmkd_HYBRIS_DISABLED
 

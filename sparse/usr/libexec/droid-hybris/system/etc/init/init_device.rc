@@ -10,3 +10,13 @@ on boot
     # Infrared
 	chown system input /dev/lirc0
 
+    # audio wait for pulse defaultuser
+
+    wait /run/user/100000/pulse/native
+    enable audioserver
+    trigger pulse
+
+on pulse
+    start audioserver
+
+

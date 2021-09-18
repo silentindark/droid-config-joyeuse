@@ -1,0 +1,13 @@
+[Unit]
+Description=PulseAudio waits for Audio-HAL
+After=pulseaudio.service
+ConditionPathExists=/dev/socket/audio_hw_socket
+
+[Service]
+ExecStart=/bin/true
+Restart=always
+RestartSec=1
+Type=notify
+
+[Install]
+WantedBy=pulseaudio.service
