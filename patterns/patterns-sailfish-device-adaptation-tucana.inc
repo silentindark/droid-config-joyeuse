@@ -5,6 +5,7 @@
 Summary: Jolla HW Adaptation tucana
 Requires: droid-hal-tucana
 Requires: droid-hal-tucana-img-boot
+Requires: droid-hal-tucana-kernel
 Requires: droid-hal-tucana-kernel-modules
 Requires: droid-hal-tucana-detritus
 Requires: droid-config-tucana-sailfish
