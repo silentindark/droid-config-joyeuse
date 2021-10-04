@@ -52,7 +52,7 @@ Requires: geoclue-provider-mlsdb
 # This is currently disabled as there's a race at startup with audio-hal-2 + audioservice and something
 # like gst-droid or pulseaudio that makes no mic audio in calls if you enable the above services for proximity to work..
 # The media booster worsenes this race it seems.
-Requires: mapplauncherd-booster-silica-qt5-media
+#Requires: mapplauncherd-booster-silica-qt5-media
 
 %description -n patterns-sailfish-device-configuration-tucana
 Pattern with packages for tucana configurations
