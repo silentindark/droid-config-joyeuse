@@ -5,9 +5,7 @@ ConditionPathExists=/dev/socket/audio_hw_socket
 
 [Service]
 ExecStart=/bin/true
-Restart=always
-RestartSec=1
-Type=notify
+Type=oneshot
 
 [Install]
 WantedBy=pulseaudio.service
