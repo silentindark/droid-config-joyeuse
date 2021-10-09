@@ -20,6 +20,10 @@
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 
+# Device-specific usb-moded configuration
+Provides: usb-moded-configs
+Obsoletes: usb-moded-defaults
+
 Requires: libgbinder-tools
 
 # Sailfish OS is considered to-scale, if in the App Grid you get 4-in-a-row icons,
