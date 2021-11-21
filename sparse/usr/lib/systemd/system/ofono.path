@@ -1,0 +1,10 @@
+[Unit]
+Description=Wait for QCRILd
+Before=ofono.service
+
+[Path]
+PathExists=/dev/socket/qmux_radio/qcril_radio_config0
+
+[Install]
+WantedBy=ofono.service
+
