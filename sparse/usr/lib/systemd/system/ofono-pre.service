@@ -1,0 +1,6 @@
+[Service]
+TimeoutStartSec=infinity
+ConditionPathExists=/dev/socket/qmux_radio/qcril_radio_config0
+ExecStart=/usr/bin/sleep 1000
+RemainAfterExit=yes
+
