@@ -75,9 +75,9 @@ Requires: rfkill
 # enable device lock and allow to select untrusted software
 #Requires: jolla-devicelock-daemon-encsfa
 # Fingerprint unlocking daemon for community ports
-Requires: sailfish-fpd-community
-Requires: sailfish-devicelock-fpd
-Requires: droid-biometry-fp
+#Requires: sailfish-fpd-community
+#Requires: sailfish-devicelock-fpd
+#Requires: droid-biometry-fp
 
 # Enable home encryption
 #Requires: sailfish-device-encryption
