@@ -54,8 +54,8 @@ Requires: geoclue-provider-mlsdb
 # The media booster worsenes this race it seems.
 Requires: mapplauncherd-booster-silica-qt5-media
 
-# boot logo
-Requires: yamuisplash
+# boot logo is messing with boot order further, disabling
+#Requires: yamuisplash
 
 %description -n patterns-sailfish-device-configuration-tucana
 Pattern with packages for tucana configurations
