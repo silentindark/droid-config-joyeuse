@@ -19,6 +19,7 @@
 
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
+Obsoletes: ofono-configs-binder
 
 # Device-specific usb-moded configuration
 Provides: usb-moded-configs
