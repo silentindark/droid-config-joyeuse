@@ -36,5 +36,10 @@ service vendor.vibrator-1-0 /vendor/bin/hw/android.hardware.vibrator@1.0-service
 
 #logcat noise
 service vendor.drm-clearkey-hal-1-2 /vendor/bin/hw/android.hardware.drm@1.2-service.clearkey_HYBRIS_DISABLED
+    override
 
 service loc_launcher /system/vendor/bin/loc_launcher_HYBRIS_DISABLED
+    override
+
+service thermal-engine /system/vendor/bin/thermal-engine_HYBRIS_DISABLED
+    override
