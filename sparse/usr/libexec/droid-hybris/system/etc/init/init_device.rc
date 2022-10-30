@@ -12,11 +12,12 @@ on boot
 
     # audio wait for pulse defaultuser
 
-    wait /run/user/100000/pulse/native 20
-    enable audioserver
-    trigger pulse
-
-on pulse
-    start audioserver
+# disabled. No proximity sensor for now
+#    wait /run/user/100000/pulse/native 20
+#    enable audioserver
+#    trigger pulse
+#
+#on pulse
+#    start audioserver
 
 
