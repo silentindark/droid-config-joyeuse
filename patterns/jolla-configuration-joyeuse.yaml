@@ -1,0 +1,12 @@
+Description: Pattern with packages for joyeuse configurations
+Name: jolla-configuration-joyeuse
+Requires:
+- patterns-sailfish-device-configuration-joyeuse
+
+Summary: Jolla Configuration joyeuse
+Description: Pattern with packages for joyeuse configurations
+Name: jolla-configuration-joyeuse
+Requires:
+- patterns-sailfish-device-configuration-joyeuse
+
+Summary: Jolla Configuration joyeuse
