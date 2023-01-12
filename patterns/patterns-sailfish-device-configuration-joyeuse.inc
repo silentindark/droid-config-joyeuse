@@ -1,10 +1,10 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-%package -n patterns-sailfish-device-configuration-tucana
-Summary: Jolla Configuration tucana
-Requires: patterns-sailfish-device-configuration-common-tucana
-Requires: patterns-sailfish-device-adaptation-tucana
+%package -n patterns-sailfish-device-configuration-joyeuse
+Summary: Jolla Configuration joyeuse
+Requires: patterns-sailfish-device-configuration-common-joyeuse
+Requires: patterns-sailfish-device-adaptation-joyeuse
 
 # For devices with cellular modem. Those without one, please comment out:
 Requires: patterns-sailfish-cellular-apps
@@ -57,7 +57,7 @@ Requires: mapplauncherd-booster-silica-qt5-media
 # boot logo is messing with boot order further, disabling
 #Requires: yamuisplash
 
-%description -n patterns-sailfish-device-configuration-tucana
-Pattern with packages for tucana configurations
+%description -n patterns-sailfish-device-configuration-joyeuse
+Pattern with packages for joyeuse configurations
 
-%files -n patterns-sailfish-device-configuration-tucana
+%files -n patterns-sailfish-device-configuration-joyeuse
