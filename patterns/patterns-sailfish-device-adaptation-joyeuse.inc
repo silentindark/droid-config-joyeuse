@@ -1,20 +1,20 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-%package -n patterns-sailfish-device-adaptation-tucana
-Summary: Jolla HW Adaptation tucana
-Requires: droid-hal-tucana
-Requires: droid-hal-tucana-img-boot
-Requires: droid-hal-tucana-kernel
-Requires: droid-hal-tucana-kernel-modules
-Requires: droid-hal-tucana-detritus
-Requires: droid-config-tucana-sailfish
-Requires: droid-config-tucana-pulseaudio-settings
-Requires: droid-config-tucana-policy-settings
-Requires: droid-config-tucana-preinit-plugin
-Requires: droid-config-tucana-flashing
-Requires: droid-config-tucana-bluez5
-Requires: droid-hal-version-tucana
+%package -n patterns-sailfish-device-adaptation-joyeuse
+Summary: Jolla HW Adaptation joyeuse
+Requires: droid-hal-joyeuse
+Requires: droid-hal-joyeuse-img-boot
+Requires: droid-hal-joyeuse-kernel
+Requires: droid-hal-joyeuse-kernel-modules
+Requires: droid-hal-joyeuse-detritus
+Requires: droid-config-joyeuse-sailfish
+Requires: droid-config-joyeuse-pulseaudio-settings
+Requires: droid-config-joyeuse-policy-settings
+Requires: droid-config-joyeuse-preinit-plugin
+Requires: droid-config-joyeuse-flashing
+Requires: droid-config-joyeuse-bluez5
+Requires: droid-hal-version-joyeuse
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -96,7 +96,7 @@ Requires: jolla-mediaplayer-radio
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
-%description -n patterns-sailfish-device-adaptation-tucana
-Pattern with packages for tucana HW Adaptation
+%description -n patterns-sailfish-device-adaptation-joyeuse
+Pattern with packages for joyeuse HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-tucana
+%files -n patterns-sailfish-device-adaptation-joyeuse
