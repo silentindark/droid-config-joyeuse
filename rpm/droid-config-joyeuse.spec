@@ -4,11 +4,11 @@
 # These and other macros are documented in
 # ../droid-configs-device/droid-configs.inc
 
-%define device tucana
+%define device joyeuse
 %define vendor xiaomi
 
 %define vendor_pretty Xiaomi
-%define device_pretty Mi Note 10
+%define device_pretty Redmi Note 9 Pro
 
 # Community HW adaptations need this
 %define community_adaptation 1
@@ -37,8 +37,8 @@ Requires: libgbinder-tools
 %define pixel_ratio 1.5
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-tucana.inc
-%include patterns/patterns-sailfish-device-configuration-tucana.inc
+%include patterns/patterns-sailfish-device-adaptation-joyeuse.inc
+%include patterns/patterns-sailfish-device-configuration-joyeuse.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
